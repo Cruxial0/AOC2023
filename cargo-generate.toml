@@ -1,0 +1,3 @@
+[template]
+sub_templates = ["aoc_template"]
+ignore = [".gitignore"]
