@@ -57,8 +57,7 @@ fn parse_to_number(ln: String) -> Result<i32, ParseIntError> {
             continue;
         }
 
-        let mut number: String = "{}".to_owned();
-        number = ch.to_string();
+        let number: String = ch.to_string();
 
         numbers.push((idx, number));
         idx = idx + 1;
@@ -80,5 +79,6 @@ fn string_to_int(input: String) -> i32 {
         return input.parse::<i32>().expect("Failed to parse int");
     }
 
+    
     *NUMBERS[&input]
 }

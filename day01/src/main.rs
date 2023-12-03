@@ -1,8 +1,9 @@
 use std::env;
 
 mod part01;
+mod part02;
 mod file_helper;
-pub mod part02;
+
 extern crate phf;
 
 fn main(){
